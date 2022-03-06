@@ -16,7 +16,7 @@ public class UserProfileDataAccessRepository {
         this.fakeUserProfileRepository = fakeUserProfileRepository;
     }
 
-    List<UserProfile> getUserProfiles() {
+    public List<UserProfile> getUserProfiles() {
         return fakeUserProfileRepository.getUserProfiles();
     }
 }
